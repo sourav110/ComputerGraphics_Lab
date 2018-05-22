@@ -24,6 +24,14 @@ glVertex2d (300, 100);
 glVertex2d (300, 300);
 glVertex2d (200, 300);
 glEnd();
+  
+glColor3ub (204, 0, 0);
+glBegin(GL_POLYGON);
+glVertex2d (210, 100);
+glVertex2d (290, 100);
+glVertex2d (290, 290);
+glVertex2d (210, 290);
+glEnd();
 
 glColor3ub (204, 0, 102);
 glBegin(GL_POLYGON);
